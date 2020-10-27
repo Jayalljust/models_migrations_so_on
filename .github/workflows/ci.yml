@@ -4,8 +4,6 @@ on: push
 jobs:
   test_project:
     runs-on: ubuntu-latest
-    with: 
-      python-version: 3.9
     steps:
     - uses: actions/checkout@v2
     - name: Run Django unit tests
